@@ -1,0 +1,33 @@
+.contact{
+    width: 990px;
+    margin: 2em auto;
+}
+h1{
+    color: green;
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    border: .3em double gray;
+    outline: none;
+    font-size: 1.1em;
+}
+label{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .contact {
+        width: 70%;
+        margin: 1em auto;
+    }
+    input{
+        width: 100%;
+        padding: 3em;
+        border: .3em solid gray;
+     
+    }
+}
